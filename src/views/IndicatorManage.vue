@@ -1,10 +1,15 @@
 <template>
   <div class="page-wrap">
-    <RuleConfig
-      :initialRule="customInitialRule"
-      @ruleChange="handleRuleChange"
-      @testResult="handleTestResult"
-    />
+    <el-card shadow="never">
+      <div slot="header" class="card-header">
+        <span class="title">指标管理</span>
+      </div>
+      <RuleConfig
+        :initialRule="customInitialRule"
+        @ruleChange="handleRuleChange"
+        @testResult="handleTestResult"
+      />
+    </el-card>
   </div>
 </template>
 
