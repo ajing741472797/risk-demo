@@ -4,7 +4,7 @@
       <div slot="header" class="card-header">
         <span class="title">模型管理</span>
       </div>
-      <p class="hint">模型管理功能开发中，敬请期待。</p>
+      <p class="hint">11模型管理功能开发中，敬请期待。</p>
     </el-card>
   </div>
 </template>
